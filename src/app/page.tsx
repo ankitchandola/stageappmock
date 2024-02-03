@@ -1,9 +1,11 @@
-import Carousel from "@/components/pages/carousal/carousal";
-import Image from "next/image";
-
+import Carousel from "@/components/Pages/Carousel/Carousel";
+import RowData from "@/components/Pages/Rows/Rows";
 
 export default function Home() {
   return (
-   <Carousel/>
+    <>
+      <Carousel />
+      <RowData />
+    </>
   );
 }

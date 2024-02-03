@@ -1,3 +1,7 @@
+// useWindowDimensions Hook
+// A custom React Hook to track and retrieve the dimensions of the window.
+// Returns an object containing the width and height.
+
 import { useState, useEffect } from 'react';
 
 function getWindowDimensions() {
