@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import CarouselItems from "./CarouselItems";
 import { carousel } from "@/types/carouselTypes";
+import { BASE_URL } from "@/constants/api";
 
 export default function Carousel() {
   const [carouselData, setCarouselData] = useState<carousel | null>(null);
@@ -12,7 +13,7 @@ export default function Carousel() {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          "https://dev-api.stage.in/v23/assignment/carousel-data"
+          `${BASE_URL}/v23/assignment/carousel-data`
         );
         const data = await response.json();
         setCarouselData(data.data);

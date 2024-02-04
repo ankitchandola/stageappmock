@@ -17,7 +17,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className} style={{ background: "#141414" }}>
+      <body
+        className={inter.className}
+        //user-agent-stylesheet issue
+        style={{ background: "black", margin: "0px" }}
+      >
         {/**
          ** All the meta tags and links
          */}

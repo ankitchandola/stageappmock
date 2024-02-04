@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import RowDataItems from "./RowItems";
 import { rowData } from "@/types/rowTypes";
+import { BASE_URL } from "@/constants/api";
 
 export default function RowData() {
   const [rowData, setRowData] = useState<rowData | null>(null);
@@ -11,9 +12,7 @@ export default function RowData() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(
-          "https://dev-api.stage.in/v23/assignment/row-data"
-        );
+        const response = await fetch(`${BASE_URL}/v23/assignment/row-data`);
         const data = await response.json();
         setRowData(data.data);
       } catch (error) {
