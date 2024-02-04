@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# STAGE
+
+Stage mock app home page
+
+## Description
+
+This is an React assignment which mocks original stage ott website homepage design.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Before you begin, ensure you have met the following requirements:
+
+- **Node.js and npm:** Your project uses Node.js and npm for package management. If not installed, you can download and install them from [nodejs.org](https://nodejs.org/).
+
+- **Git:** Git is used for version control. Install Git from [git-scm.com](https://git-scm.com/) if it's not already on your machine.
+
+- **A Code Editor:** You'll need a code editor for development. Popular choices include Visual Studio Code, Sublime Text, or Atom.
+
+
+
+### Installing
+
+Clone the repo using this command
+
+```
+git clone https://github.com/ankitchandola/stageappmock.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Executing program
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* How to run the program
+* Step-by-step bullets
+```
+npm install && npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Help
 
-## Learn More
+**Note:** Older versions of Node.js may cause compatibility issues. Please consider upgrading to a supported version.
 
-To learn more about Next.js, take a look at the following resources:
+### Using nvm (Node Version Manager)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+If you have nvm installed, you can easily switch to a newer version of Node.js. Run the following commands:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+# Install or update nvm (if not installed)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
 
-## Deploy on Vercel
+# Load nvm
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")" [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Install the latest Node.js version
+nvm install node
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Authors
+
+ Ankit Chandola
