@@ -31,7 +31,6 @@ git clone https://github.com/ankitchandola/stageappmock.git
 ### Executing program
 
 * How to run the program
-* Step-by-step bullets
 ```
 npm install && npm run dev
 ```
